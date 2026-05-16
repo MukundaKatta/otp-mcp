@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.MukundaKatta/otp",
+  "description": "MCP server: generate and verify TOTP and HOTP one-time passwords.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/MukundaKatta/otp-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://github.com/MukundaKatta/otp-mcp",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@mukundakatta/otp-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
